@@ -74,10 +74,14 @@ iframe {
 .nav-collapse select{
     display: none;
 }
+nav{
+	position:relative;
+}
 ul.nav {
   list-style: none outside none;
   text-align: left;
     margin-left: 158px;
+	 
 
 }
 ul.nav li{
@@ -110,6 +114,13 @@ ul.nav li a i[class^="icon-"], [class*=" icon-"]{
   padding-left: 18px;
 padding-right: 18px;
 }
+.fixed {
+    position: fixed; 
+    top: 0; 
+    height: 70px; 
+    z-index: -10;
+}
+
 ul.nav li a i span{
    font-family: PT Sans;
    margin-left: 14px;
@@ -1140,10 +1151,4 @@ font-weight: 500;
 	font-family: 'Open Sans', sans-serif;
 	display:block;
 	text-align:center;
-}
-.fixed {
-    position: fixed; 
-    top: 0; 
-    height: 70px; 
-    z-index: 1;
 }
