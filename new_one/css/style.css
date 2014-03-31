@@ -634,7 +634,7 @@ hr.fancy-line:after {
 
 .menu ul li a:hover{
 	text-decoration: none;
-	color:#8E8171;
+	color:#fc9700;
 }
 
 .menu ul li a.active{
@@ -805,7 +805,7 @@ hr.fancy-line:after {
 	float: left;
 	width: 100%;
 	display: inline-block;
-	opacity: 0.7;
+	opacity: 0.9;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -1253,7 +1253,7 @@ hr.fancy-line:after {
 #content > div#resume_page .left > .title i{
     font-size: 25px;
     margin-right: 15px;
-    color: #555555;
+    color: #fc9700;
 }
 
 #content > div#resume_page .left .item{
@@ -1441,14 +1441,14 @@ hr.fancy-line:after {
 }
 
 #content > div#resume_page .tools .tool{
-	background: #f5f5f5;
-	border-radius: 10px;
+	background: #ccc;
+	border-radius: 5px;
 	box-shadow: 0 1px 0 #e6e6e6;
 	padding: 10px;
 	margin-right: 15px;
 	margin-bottom: 15px;
 	display: inline-block;
-	color: #999999;
+	color: #000;
 	cursor: default;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -1697,8 +1697,9 @@ hr.fancy-line:after {
 	margin-right: 10px;
 	padding-left: 15px;
 	padding-right: 15px;
-	border-radius: 10px;
-	background: #ededed;
+	border-radius: 5px;
+	background: #aaa;
+	color:#f1f1f1;
 	box-shadow: 0 1px 0 #dedede;
 	cursor: pointer;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -3520,16 +3521,15 @@ body.blue_color #content > div#resume_page .download_vcard a .text:hover{
 
 body.blue_color #content > div#portfolio_page .portfolio_filter li.active,
 body.blue_color #content > div#portfolio_page .portfolio_filter li:hover{
-	background: #6AB3FC;
-	box-shadow: 0 1px 0 #408DDB;
-}
+	background: #fc9700;
+ }
 
 body.blue_color #content > div#portfolio_page #portfolio_grid .mix .overlay i{
-	color: #6AB3FC;
+	color: #fc9700;
 }
 
 body.blue_color #content > div#portfolio_page #portfolio_grid .mix:hover .img_outer .overlay i{
-	border: 1px solid #6AB3FC;
+	border: 1px solid #fc9700;
 }
 
 body.blue_color #content > div#portfolio_page #portfolio_info i:hover{
@@ -3565,7 +3565,7 @@ body.blue_color #sequence .info7,
 body.blue_color #sequence .info8,
 body.blue_color #sequence .info9,
 body.blue_color #sequence .info10{
-	border-left: 5px solid #008AC3;
+	border-left: 5px solid #fc9700;
 }
 
 body.blue_color #sequence .controls li{
